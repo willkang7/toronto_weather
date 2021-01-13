@@ -27,5 +27,6 @@ ax.bar(dates, prcps, width=2, color='lightblue')
 
 # Format plot.
 plt.gca().set_ylim([0, 60])
+fig.patch.set_facecolor('#efc9af')
 
 plt.savefig('images/precipitation.png', bbox_inches='tight')

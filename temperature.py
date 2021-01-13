@@ -31,5 +31,6 @@ plt.fill_between(dates, highs, lows, facecolor='blue', alpha=0.1)
 
 # Format plot.
 plt.gca().set_ylim([-20, 40])
+fig.patch.set_facecolor('#efc9af')
 
 plt.savefig('images/temperature.png', bbox_inches='tight')
