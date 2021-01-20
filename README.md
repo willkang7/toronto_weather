@@ -7,7 +7,7 @@ in the Great White North.
 This program was create in Python 3. It requires matplotlib.
 
 ## Usage
-[Insert infographic here]
+![Infographic](images/infographic.png)
 
 ## Credits
 [William Kang](https://github.com/willkang7)
