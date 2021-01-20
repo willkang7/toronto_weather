@@ -33,6 +33,6 @@ ax.scatter(dates, snwds, c=temps, cmap='coolwarm', marker='*')
 
 # Format plot.
 plt.gca().set_ylim([0, 160])
-fig.patch.set_facecolor('#efc9af')
+fig.patch.set_facecolor('#D7E1E5')
 
 plt.savefig('images/snow_depth.png', bbox_inches='tight')
